@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="https://nafezly.com/css/cust-fonts.css">
+    <link rel="stylesheet" type="text/css" href="https://nafezly.com/css/fontawsome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://nafezly.com/css/responsive-font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <div class="col-12 " style="background: var(--second-color);" id="alert-message">
+        <div class="container">
+            <div class="col-12 p-0 row p-3">
+                <div class="col px-2" style="color:#fff">
+                    رسالة تنبيهية للزائر يتم إخفائها تلقائياً اذا عمل سكرول للأسفل أو ضغط على زر إغلاق
+                </div>
+                <div class="col-1 d-flex justify-content-end px-1 align-items-center">
+                    <span class="fas fa-times p-1" style="color:#fff;cursor: pointer;" onclick="$('#alert-message').slideUp();"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background: var(--main-color);">
+        <div class="container" style="direction: ltr;">
+            <a class="navbar-brand p-0" href="#" style="color:var(--second-color);">
+                <img src="images/logo.jpeg" style="width: 160px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse py-4 py-md-0" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0 px-0" style="direction:rtl">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            من نحن
+                        </a>
+                        <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown" style="direction:rtl;background: var(--second-color);right: 0px;">
+                            <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> بدايتنا</a></li>
+                            <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> رؤيتنا ورسالتنا</a></li>
+                            <li class="text-end py-1 dropdown-hover">
+                                <a class="dropdown-item" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> قصة حياتنا</a>
+                                <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown" style="direction:rtl;background: var(--second-color);">
+                                    <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> نص عشوائي</a></li>
+                                    <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> نص عشوائي</a></li>
+                                    <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> نص عشوائي</a></li>
+                                    <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> نص عشوائي</a></li>
+                                    <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> نص عشوائي</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">فروعنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">الاعلام</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">الوظائف</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col-12 px-0">
+        <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;max-height:800px;">
+    </div>
+    <div class="col-12 py-5">
+        <div class="container">
+            <div class="col-12 p-0 row">
+                <div class="col-12 px-0 my-5 pb-3">
+                    <h2 class="text-center font-8" style="color:var(--main-color);font-weight: bold;">معرض الصور</h2>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3 d-flex justify-content-center">
+                    <div class="col-12 p-0">
+                        <a href="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
+                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;border-radius: 30px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 p-0" id="footer" style="background:var(--main-color);">
+        <div class="container py-5">
+            <div class="col-12 row px-lg-4" style="border-radius: 45px 0px 45px 0px;background: var(--second-color);min-height: 350px;">
+                <div class="col-12 col-lg-3 px-2 py-5">
+                    <div class="col-12 p-0 text-end ">
+                        <img src="images/logo.jpeg" style="width: 160px;" class="mb-4">
+                        <!-- <h2 style="color:#fff" class="mb-3">الشعار هنا</h2> -->
+                        <div class="col-12 p-0 text-end">
+                            <p style="color:var(--main-color);opacity: .8;">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                        </div>
+                        <div class="col-12 py-2 px-0" style="direction:ltr">
+                            <a href="#" style="border:1px solid var(--main-color);background:transparent;padding: 2px;" class="rounded-circle d-inline-block mx-1 text-center">
+                                <span class="fab fa-twitter font-3 p-1 rounded-circle" style="background:var(--main-color);color: var(--second-color);width: 29px;"></span>
+                            </a>
+                            <a href="#" style="border:1px solid var(--main-color);background:transparent;padding: 2px;" class="rounded-circle d-inline-block mx-1 text-center">
+                                <span class="fab fa-facebook-f font-3 p-1 rounded-circle" style="background:var(--main-color);color: var(--second-color);width: 29px;"></span>
+                            </a>
+                            <a href="#" style="border:1px solid var(--main-color);background:transparent;padding: 2px;" class="rounded-circle d-inline-block mx-1 text-center">
+                                <span class="fab fa-instagram font-3 p-1 rounded-circle" style="background:var(--main-color);color: var(--second-color);width: 29px;"></span>
+                            </a>
+                            <a href="#" style="border:1px solid var(--main-color);background:transparent;padding: 2px;" class="rounded-circle d-inline-block mx-1 text-center">
+                                <span class="fab fa-linkedin-in font-3 p-1 rounded-circle" style="background:var(--main-color);color: var(--second-color);width: 29px;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 px-2 py-5">
+                    <ul style="list-style-type: none;">
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">الرئيسية</a></li>
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">من نحن</a></li>
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">رؤيتنا ورسالتنا</a></li>
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">خدماتنا</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 px-2 py-5">
+                    <ul style="list-style-type: none;">
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">فروعنا</a></li>
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">معرض الصور</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-3 px-2 py-5">
+                    <ul style="list-style-type: none;">
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">الإعلام</a></li>
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">الوظائف</a></li>
+                        <li class="pb-4"><a href="#" class="pb-1" style="color:var(--main-color);border-bottom: 3px solid var(--main-color)!important;">إتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 text-center py-4 " style="font-weight: bold;color: var(--main-color);background: var(--second-color);">
+        جميع الحقوق محفوظة ل : إسم الموقع 2021 - تصميم وبرمجة : إسماعيل العريبي
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script type="text/javascript">
+    AOS.init();
+    Fancybox.bind("[data-fancybox]", {
+      // Your options go here
+    });
+    </script>
+</body>
+
+</html>
