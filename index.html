@@ -18,19 +18,19 @@
 </head>
 
 <body>
-    <div class="col-12 fixed-top">
-        <div class="col-12 " style="background: var(--second-color);" id="alert-message">
-            <div class="container">
-                <div class="col-12 p-0 row p-3">
-                    <div class="col px-2" style="color:#fff">
-                        رسالة تنبيهية للزائر يتم إخفائها تلقائياً اذا عمل سكرول للأسفل أو ضغط على زر إغلاق
-                    </div>
-                    <div class="col-1 d-flex justify-content-end px-1 align-items-center">
-                        <span class="fas fa-times p-1" style="color:#fff;cursor: pointer;" onclick="$('#alert-message').slideUp();"></span>
-                    </div>
+    <div class="col-12 active" style="background: var(--second-color);" id="alert-message">
+        <div class="container">
+            <div class="col-12 p-0 row p-3">
+                <div class="col px-2" style="color:#fff">
+                    رسالة تنبيهية للزائر يتم إخفائها تلقائياً اذا عمل سكرول للأسفل أو ضغط على زر إغلاق
+                </div>
+                <div class="col-1 d-flex justify-content-end px-1 align-items-center">
+                    <span class="fas fa-times p-1" style="color:#fff;cursor: pointer;" onclick="$('#alert-message').slideUp();$('#alert-message').addClass('removed');$('#alert-message').removeClass('active');"></span>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col-12" id="main-fixed-top" >
         <nav class="navbar navbar-expand-lg navbar-dark  py-3" style="background: var(--main-color);">
             <div class="container" style="direction: ltr;">
                 <a class="navbar-brand p-0" href="#" style="color:var(--second-color);">
@@ -83,7 +83,7 @@
             </div>
         </nav>
     </div>
-    <div class="col-12 p-0" style="margin-top:87px"></div>
+    <div class="col-12 p-0"  id="fixing-margin-top"></div>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators container mx-auto">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -148,7 +148,7 @@
                 </div>
                 <h2 style="color:var(--main-color);font-weight: bold;">أبرز الصور</h2>
             </div>
-            <div class="owl-carousel pt-5" style="direction:ltr">
+            <div class="owl-carousel owl-carousel-3 pt-5" style="direction:ltr">
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-3 d-flex justify-content-center">
                         <a href="images/designs/1.jpeg" data-fancybox="gallery" data-caption="وصف الصورة سيتم كتابته هنا" style="border-radius: 30px;overflow: hidden;">
@@ -193,7 +193,7 @@
                 </div>
                 <h2 style="color:var(--second-color);font-weight: bold;position: relative;z-index: 1;">آخر الأخبار</h2>
             </div>
-            <div class="owl-carousel pt-5" style="direction:ltr">
+            <div class="owl-carousel owl-carousel-3 pt-5" style="direction:ltr">
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-3 d-flex justify-content-center">
                         <div class="col-12 px-0">
@@ -290,7 +290,7 @@
                 </div>
                 <h2 style="color:var(--second-color);font-weight: bold;position: relative;z-index: 1;">الوكالات العالمية</h2>
             </div>
-            <div class="owl-carousel pt-5" style="direction:ltr">
+            <div class="owl-carousel owl-carousel-4 pt-5" style="direction:ltr">
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-5 d-flex justify-content-center">
                         <img src="images/designs/1.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
@@ -298,22 +298,22 @@
                 </div>
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-5 d-flex justify-content-center">
-                        <img src="images/designs/1.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
+                        <img src="images/designs/2.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
                     </div>
                 </div>
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-5 d-flex justify-content-center">
-                        <img src="images/designs/1.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
+                        <img src="images/designs/3.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
                     </div>
                 </div>
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-5 d-flex justify-content-center">
-                        <img src="images/designs/1.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
+                        <img src="images/designs/4.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
                     </div>
                 </div>
                 <div style="direction:rtl" data-aos="fade-up">
                     <div class="col-12 p-5 d-flex justify-content-center">
-                        <img src="images/designs/1.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
+                        <img src="images/designs/5.jpeg" style="width:100%;border-radius:inherit;height: 100%;" style="" class="rounded">
                     </div>
                 </div>
             </div>
