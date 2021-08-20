@@ -39,14 +39,16 @@ Fancybox.bind("[data-fancybox]", {
 
 window.addEventListener("scroll", (event) => {
 
-    let box = document.querySelector('#alert-message.active');
-    let height_message = box.offsetHeight;
-    let box2 = document.querySelector('#main-fixed-top');
-    let height_navbar = box2.offsetHeight;
+    var box = document.querySelector('#alert-message.active');
+    if(box!=null)
+        var height_message = box.offsetHeight;
+    else
+        var height_message = 0;
 
-    let scroll = this.scrollY;
-    console.log(scroll);
-    console.log("test"+height_message);
+    var box2 = document.querySelector('#main-fixed-top');
+    var height_navbar = box2.offsetHeight;
+
+    var scroll = this.scrollY;
     if(scroll>height_message){
         $('#main-fixed-top').addClass("fixed-top");
         $('#main-fixed-top').css({'top':"0px"});
