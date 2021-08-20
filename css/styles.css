@@ -79,23 +79,14 @@ html{
 .dropdown-menu li:hover a{
 	font-weight: bold!important;
 }
-.dropdown-hover:hover .dropdown-menu{
-	display: inline-block!important;
-}
-.dropdown-hover .dropdown-menu{
-	right: 160px;
-	margin-top: -36px;
-}
-@media (max-width: 992px){
-	.dropdown-hover:hover .dropdown-menu{
-		display: inline-block!important;
-	}
-	.dropdown-hover .dropdown-menu{
-		right: 0px;
-		margin-top: 0px;
+@media (min-width: 992px){
+	.dropdown-sub .dropdown-menu{
+		right: 160px!important;
 		position: relative;
+		top: 0px;
 	}
 }
+
 /*.navbar{
 	position: fixed;width: 100%;z-index: 111;top: 0px;
 }*/

@@ -44,11 +44,6 @@ window.addEventListener("scroll", (event) => {
     let box2 = document.querySelector('#main-fixed-top');
     let height_navbar = box2.offsetHeight;
 
-
-    
-
-
-
     let scroll = this.scrollY;
     console.log(scroll);
     console.log("test"+height_message);
@@ -62,3 +57,10 @@ window.addEventListener("scroll", (event) => {
         $('#alert-message.active').fadeIn(0);
     }
 }); 
+
+$(document).click(function(){
+  $(".dropdown-menu").removeClass("show");
+});
+$(".dropdown").click(function(e){
+  e.stopPropagation();
+});
