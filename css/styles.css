@@ -86,3 +86,6 @@ html{
 	right: 160px;
 	margin-top: -36px;
 }
+/*.navbar{
+	position: fixed;width: 100%;z-index: 111;top: 0px;
+}*/
