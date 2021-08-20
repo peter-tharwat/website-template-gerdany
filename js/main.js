@@ -64,3 +64,6 @@ $(document).click(function(){
 $(".dropdown").click(function(e){
   e.stopPropagation();
 });
+setTimeout(function(){
+    $('#pre-loader').fadeOut(800);
+},500);
