@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="https://nafezly.com/css/cust-fonts.css">
     <link rel="stylesheet" type="text/css" href="https://nafezly.com/css/fontawsome.min.css">
     <link rel="stylesheet" type="text/css" href="https://nafezly.com/css/responsive-font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
     <link rel="stylesheet" href="css/styles.css">
     <title>Title</title>
 </head>
@@ -28,7 +30,7 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background: var(--main-color);">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background: var(--main-color);">
         <div class="container" style="direction: ltr;">
             <a class="navbar-brand p-0" href="#" style="color:var(--second-color);">
                 <img src="images/logo.jpeg" style="width: 160px;">
@@ -39,14 +41,14 @@
             <div class="collapse  navbar-collapse py-4 py-md-0" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0 px-0" style="direction:rtl">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             من نحن
                         </a>
                         <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown" style="direction:rtl;background: var(--second-color);right: 0px;">
-                            <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> بدايتنا</a></li>
+                            <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="about.html" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> بدايتنا</a></li>
                             <li class="text-end border-bottom py-1" style="border-color:var(--main-color)!important;"><a class="dropdown-item" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> رؤيتنا ورسالتنا</a></li>
                             <li class="text-end py-1 dropdown-hover">
                                 <a class="dropdown-item" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#" style="color:var(--main-color);background: var(--second-color);"> <span class="fas fa-circle font-small"></span> قصة حياتنا</a>
@@ -64,23 +66,23 @@
                         <a class="nav-link" aria-current="page" href="#">خدماتنا</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">اتصل بنا</a>
+                        <a class="nav-link" aria-current="page" href="contact.html">اتصل بنا</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">فروعنا</a>
+                        <a class="nav-link" aria-current="page" href="branches.html">فروعنا</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">الاعلام</a>
+                        <a class="nav-link" aria-current="page" href="gallery.html">الاعلام</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">الوظائف</a>
+                        <a class="nav-link" aria-current="page" href="jobs.html">الوظائف</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="col-12 px-0">
-        <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%;max-height:800px;">
+        <img src="images/sliders/slider_2.jpg" style="width:100%;max-height:800px;">
     </div>
     <div class="col-12 py-5">
         <div class="container">
@@ -88,15 +90,15 @@
                 <div class="col-12 px-0 ">
                     <h2 class="text-center" style="color:var(--second-color);font-weight: bold;">من نحن</h2>
                 </div>
-                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;">
-                    <div class="col-12 col-md-4 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
+                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;" data-aos="fade-up">
+                    <div class="col-12 col-md-3 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
                         <div style="background: var(--main-color);position: absolute;height: 350px;width: 70%;z-index: 0;">
                         </div>
                         <div class="col-12 d-flex align-items-center" style="padding: 20px;position: relative;z-index: 2;height: 100%;">
-                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%; border-radius: 30px;" class="d-inline-block">
+                            <img src="images/designs/1.jpeg" style="width:100%; border-radius: 30px;" class="d-inline-block">
                         </div>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="col-12 px-0 pt-5">
                             <h2>هذا النص تجريبي فقط</h2>
                         </div>
@@ -105,15 +107,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;direction: ltr;">
-                    <div class="col-12 col-md-4 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
+                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;direction: ltr;" data-aos="fade-up">
+                    <div class="col-12 col-md-3 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
                         <div style="background: var(--main-color);position: absolute;height: 350px;width: 70%;z-index: 0;">
                         </div>
                         <div class="col-12 d-flex align-items-center" style="padding: 20px;position: relative;z-index: 2;height: 100%;">
-                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%; border-radius: 30px;" class="d-inline-block">
+                            <img src="images/designs/2.jpeg" style="width:100%; border-radius: 30px;" class="d-inline-block">
                         </div>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="col-12 px-0 pt-5">
                             <h2>هذا النص تجريبي فقط</h2>
                         </div>
@@ -122,15 +124,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;">
-                    <div class="col-12 col-md-4 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
+                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;" data-aos="fade-up">
+                    <div class="col-12 col-md-3 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
                         <div style="background: var(--main-color);position: absolute;height: 350px;width: 70%;z-index: 0;">
                         </div>
                         <div class="col-12 d-flex align-items-center" style="padding: 20px;position: relative;z-index: 2;height: 100%;">
-                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%; border-radius: 30px;" class="d-inline-block">
+                            <img src="images/designs/3.jpeg" style="width:100%; border-radius: 30px;" class="d-inline-block">
                         </div>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="col-12 px-0 pt-5">
                             <h2>هذا النص تجريبي فقط</h2>
                         </div>
@@ -139,15 +141,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;direction: ltr;">
-                    <div class="col-12 col-md-4 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
+                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;direction: ltr;" data-aos="fade-up">
+                    <div class="col-12 col-md-3 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
                         <div style="background: var(--main-color);position: absolute;height: 350px;width: 70%;z-index: 0;">
                         </div>
                         <div class="col-12 d-flex align-items-center" style="padding: 20px;position: relative;z-index: 2;height: 100%;">
-                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%; border-radius: 30px;" class="d-inline-block">
+                            <img src="images/designs/4.jpeg" style="width:100%; border-radius: 30px;" class="d-inline-block">
                         </div>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="col-12 px-0 pt-5">
                             <h2>هذا النص تجريبي فقط</h2>
                         </div>
@@ -156,15 +158,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;">
-                    <div class="col-12 col-md-4 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
+                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;" data-aos="fade-up">
+                    <div class="col-12 col-md-3 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
                         <div style="background: var(--main-color);position: absolute;height: 350px;width: 70%;z-index: 0;">
                         </div>
                         <div class="col-12 d-flex align-items-center" style="padding: 20px;position: relative;z-index: 2;height: 100%;">
-                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%; border-radius: 30px;" class="d-inline-block">
+                            <img src="images/designs/5.jpeg" style="width:100%; border-radius: 30px;" class="d-inline-block">
                         </div>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="col-12 px-0 pt-5">
                             <h2>هذا النص تجريبي فقط</h2>
                         </div>
@@ -173,15 +175,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;direction: ltr;">
-                    <div class="col-12 col-md-4 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
+                <div class="col-12 row px-0 my-5" style="background:#eef4d0;border-radius:30px;direction: ltr;" data-aos="fade-up">
+                    <div class="col-12 col-md-3 p-0" style="position:relative;overflow: hidden;border-radius:30px;">
                         <div style="background: var(--main-color);position: absolute;height: 350px;width: 70%;z-index: 0;">
                         </div>
                         <div class="col-12 d-flex align-items-center" style="padding: 20px;position: relative;z-index: 2;height: 100%;">
-                            <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80" style="width:100%; border-radius: 30px;" class="d-inline-block">
+                            <img src="images/designs/6.jpeg" style="width:100%; border-radius: 30px;" class="d-inline-block">
                         </div>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-9">
                         <div class="col-12 px-0 pt-5">
                             <h2>هذا النص تجريبي فقط</h2>
                         </div>
@@ -198,7 +200,7 @@
             <div class="col-12 row px-lg-4" style="border-radius: 45px 0px 45px 0px;background: var(--second-color);min-height: 350px;">
                 <div class="col-12 col-lg-3 px-2 py-5">
                     <div class="col-12 p-0 text-end ">
-                        <img src="images/logo.jpeg" style="width: 160px;" class="mb-4">
+                        <img src="images/logos/logo_2.png" style="width: 160px;" class="mb-4">
                         <!-- <h2 style="color:#fff" class="mb-3">الشعار هنا</h2> -->
                         <div class="col-12 p-0 text-end">
                             <p style="color:var(--main-color);opacity: .8;">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
@@ -249,27 +251,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="text/javascript">
-    AOS.init();
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 30,
-        responsiveClass: true,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1,
-            },
-            1000: {
-                items: 3,
-            }
-        }
-    });
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
