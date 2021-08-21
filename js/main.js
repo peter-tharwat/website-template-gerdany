@@ -60,12 +60,15 @@ window.addEventListener("scroll", (event) => {
     }
 }); 
 
+$(".dropdown").click(function(e){
+  $(this).find(".dropdown-sub .dropdown-item.show").removeClass("show");
+  $(this).find(".dropdown-sub .dropdown-menu.show").removeClass("show");
+  e.stopPropagation();
+});
 $(document).click(function(){
   $(".dropdown-menu").removeClass("show");
 });
-$(".dropdown").click(function(e){
-  e.stopPropagation();
-});
+
 setTimeout(function(){
     $('#pre-loader').fadeOut(800);
 },500);
